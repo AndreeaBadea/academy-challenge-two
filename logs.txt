@@ -1,0 +1,6 @@
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}
+PlayerProfile{userName='test3', email='test@gmail.com', creationDate=2022-09-24, minutesPlayedPerSession=[11, 7, 1, 9]}

@@ -1,0 +1,4 @@
+client_version=1.0.1
+autosave=true
+autosave_timeout=20
+server_url=127.0.0.1:8080/spaceinvaders/api
