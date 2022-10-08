@@ -1,16 +1,14 @@
 package com.playtika.java.academy;
 
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.PlayerProfileException;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.player.PlayerProfile;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.player.interfaces.GeneratePoints;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.AdditionalGunShield;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.BonusShield;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.BrokenShield;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.enums.ShieldType;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.PlayerProfileException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.player.PlayerProfile;
+import com.playtika.java.academy.challenge1.badea.andreea.main.player.interfaces.GeneratePoints;
+import com.playtika.java.academy.challenge1.badea.andreea.main.powerups.AdditionalGunShield;
+import com.playtika.java.academy.challenge1.badea.andreea.main.powerups.BrokenShield;
+import com.playtika.java.academy.challenge1.badea.andreea.main.powerups.enums.ShieldType;
 
 import java.io.IOException;
 import java.util.Random;
-import java.util.function.IntSupplier;
 
 public class MainChallengeOne {
     public static void main(String[] args) throws PlayerProfileException, CloneNotSupportedException {

@@ -1,7 +1,7 @@
 package com.playtika.java.academy.challenge1.badea.andreea.tests;
 
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.PlayerProfileException;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.player.PlayerProfile;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.PlayerProfileException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.player.PlayerProfile;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
@@ -33,7 +33,7 @@ public class PlayerProfileTest {
 
     @Test
     public void classHasOneConstructorTest() throws ClassNotFoundException {
-        Class<?> c = Class.forName("com.playtika.java.academy.challenge1.badea.andreea.classes.player.PlayerProfile");
+        Class<?> c = Class.forName("com.playtika.java.academy.challenge1.badea.andreea.main.player.PlayerProfile");
         Constructor[] constructors = c.getDeclaredConstructors();
         assertEquals("Class has more than one constructor.", 1, constructors.length);
     }
@@ -41,7 +41,7 @@ public class PlayerProfileTest {
 
     @Test
     public void constructorHasTwoStringArgsTest() throws NoSuchMethodException, ClassNotFoundException {
-        Class<?> c = Class.forName("com.playtika.java.academy.challenge1.badea.andreea.classes.player.PlayerProfile");
+        Class<?> c = Class.forName("com.playtika.java.academy.challenge1.badea.andreea.main.player.PlayerProfile");
         Constructor constructor = c.getDeclaredConstructor(String.class, String.class);
         Class<?>[] parameterTypes = constructor.getParameterTypes();
         assertEquals("Class does not have 2 arguments of type String.", 2, parameterTypes.length);

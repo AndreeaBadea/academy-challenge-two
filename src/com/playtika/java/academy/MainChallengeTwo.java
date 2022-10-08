@@ -1,20 +1,20 @@
 package com.playtika.java.academy;
 
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.NoGameSettingsException;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.NoPlayerDataException;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.NoPlayerProfileException;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.game.GameSettings;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.player.PlayerProfile;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.BonusShield;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.powerups.BonusShieldDataSet;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.spaceinvaders.GameSession;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.spaceinvaders.RandomInvadersSupplier;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.spaceinvaders.SpaceInvader;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.statistics.*;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.threads.ThreadBackupFile;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.threads.ThreadGameSettings;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.threads.ThreadPlayerProfile;
-import com.playtika.java.academy.challenge1.badea.andreea.classes.threads.ThreadPowerUps;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.NoGameSettingsException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.NoPlayerDataException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.NoPlayerProfileException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.game.GameSettings;
+import com.playtika.java.academy.challenge1.badea.andreea.main.player.PlayerProfile;
+import com.playtika.java.academy.challenge1.badea.andreea.main.powerups.BonusShield;
+import com.playtika.java.academy.challenge1.badea.andreea.main.powerups.BonusShieldDataSet;
+import com.playtika.java.academy.challenge1.badea.andreea.main.spaceinvaders.GameSession;
+import com.playtika.java.academy.challenge1.badea.andreea.main.spaceinvaders.RandomInvadersSupplier;
+import com.playtika.java.academy.challenge1.badea.andreea.main.spaceinvaders.SpaceInvader;
+import com.playtika.java.academy.challenge1.badea.andreea.main.statistics.*;
+import com.playtika.java.academy.challenge1.badea.andreea.main.threads.ThreadBackupFile;
+import com.playtika.java.academy.challenge1.badea.andreea.main.threads.ThreadGameSettings;
+import com.playtika.java.academy.challenge1.badea.andreea.main.threads.ThreadPlayerProfile;
+import com.playtika.java.academy.challenge1.badea.andreea.main.threads.ThreadPowerUps;
 
 import java.io.File;
 import java.io.IOException;

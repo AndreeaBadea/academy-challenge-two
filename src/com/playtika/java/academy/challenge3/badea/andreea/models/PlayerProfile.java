@@ -1,6 +1,6 @@
 package com.playtika.java.academy.challenge3.badea.andreea.models;
 
-import com.playtika.java.academy.challenge1.badea.andreea.classes.exceptions.PlayerProfileException;
+import com.playtika.java.academy.challenge1.badea.andreea.main.exceptions.PlayerProfileException;
 import com.playtika.java.academy.challenge3.badea.andreea.models.interfaces.ServerCommand;
 import org.jetbrains.annotations.NotNull;
 
